@@ -1,0 +1,11 @@
+kind: Pod
+apiVersion: v1
+metadata:
+ name: multicontainer
+ namespace: mynamespace
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+  - name: alma
+    image: "almalinux:9"
