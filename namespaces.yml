@@ -1,7 +1,7 @@
 kind: Namespace
 apiVersion: v1
 metadata:
- name: expense
+ name: mynamespace
  labels:
   name: expense
   environment: dev
