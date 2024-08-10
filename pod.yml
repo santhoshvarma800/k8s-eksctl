@@ -2,6 +2,7 @@ kind: Pod
 apiVersion: v1
 metadata:
  name: frontend
+ namespace: mynamespace
 spec:
  containers:
  - name: nginx
