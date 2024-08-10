@@ -1,7 +1,7 @@
 kind: Pod
 apiVersion: v1
 metadata:
- name: frontend
+ name: expense
  namespace: mynamespace
 spec:
  containers:
